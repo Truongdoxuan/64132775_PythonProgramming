@@ -6,3 +6,4 @@ print(f"Chi so BMI cua ban la: {bmi:.2f}")
 if (bmi > 29):
     print("Ban beo phi")
 else : print("Ban binh thuong")
+
