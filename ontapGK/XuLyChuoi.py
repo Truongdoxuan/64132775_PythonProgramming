@@ -39,6 +39,9 @@ else:
         if i.isalnum():  #isalnum() chỉ đếm ký tự là chữ hoặc số không
             kytu_chuoi[i] = kytu_chuoi.get(i,0) + 1
 
+    kytu_max = max(kytu_chuoi, key=kytu_chuoi.get)
+    tansuat_max = kytu_chuoi[kytu_max]
+
     #Sắp xếp theo tần suất xuất hiện giảm dần
     tansuat_giam = sorted(kytu_chuoi.items(), key=lambda x: x[1], reverse=True)
 
@@ -46,6 +49,7 @@ else:
     for kytu, solan in tansuat_giam:
         print(f"Ký tự: {kytu} - Số lần: {solan}")
 
+    print(f"Ký tự xuất hiện nhiều nhất: {kytu_max} - Số lần: {tansuat_max}")
     #thay thế ký tự trong chuỗi
     vitri = int(input("Nhập vị trí ký tự muốn thay thế: "))
     kytu_moi = input("Ký tự mới thay thế: ")
