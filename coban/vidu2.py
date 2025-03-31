@@ -1,5 +1,5 @@
 """ Xử lý chuỗi"""
-s1 = "Welcome to Nha Trang City"
+s1 = "Nha Trang"
 print(s1)
 print(len(s1)) #đếm số ký tự trong chuỗi
 for ch in s1: #in từng ký tự
@@ -7,7 +7,7 @@ for ch in s1: #in từng ký tự
     #print(s1[10:]) #in từ ký tự thứ 10s
     #print(ch, end=" ") #w e l c o m e...
     
-s2 = "The girl's name is Jane"
+s2 = "Nha Trang City"
 print(s2)
 
 s3 = """
@@ -31,7 +31,7 @@ Chân mây mặt đất một màu xanh xanh
 Buồn trông gió cuốn mặt duềnh
 Ầm ầm tiếng sóng kêu quanh ghế ngồi
 """
-words = [w.strip() for w in s4.split()] 
+words = [w.strip() for w in s2.split()]
 #split dùng để tách chuỗi thành danh sách các từ
 #loại bỏ khoản trắng bằng strip
 print(words) 

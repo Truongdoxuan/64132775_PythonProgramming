@@ -20,3 +20,7 @@ for n in ds:
 
 print("Tổng các số nguyên =", tong_soNguyen)
 print("Danh sách các số nguyên: ", ds_soNguyen)
+
+'''
+python
+'''

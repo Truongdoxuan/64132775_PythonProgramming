@@ -11,6 +11,7 @@ words = a.split(", ") #"," làm dấu phân tách loại bỏ dấu , và khoả
 
 # Sắp xếp theo thứ tự alphabet
 words_sorted = sorted(words)
+print(words_sorted)
 
 # Ghép danh sách đã sắp xếp thành một chuỗi
 b = ", ".join(words_sorted) #thêm dấu , ngăn cách các từ
